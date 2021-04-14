@@ -1,0 +1,48 @@
+code collection
+<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+<script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+  <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+  <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+
+
+
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content"  \>
+
+
+        <div class="modal-header">
+            <button type="button" class="close btn btn-success" data-dismiss="modal"
+            style="background-color:#54ac68">
+            &times;
+            </button>
+          </div>
+
+
+        <!-- Modal body -->
+        <div class="modal-body w3-display-container">
+            <div class="w3-center">
+                <img src="/backimage/lgu.png" class="mx-auto d-block" width="12%" height="12%" alt="">
+
+            </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+{{ asset('js/app.js') }}
+ {{-- @php
+         echo "<script>
+            alert('Hello Function');
+        </script>"
+   @endphp --}}
+
+php artisan make:controller CRUDController --resource
+Auth::user()->uuid
